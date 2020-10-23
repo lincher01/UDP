@@ -2,7 +2,7 @@
 from socket import *
 import time
 
-## some code from computer networking by Kurose and ross
+## line 2,3,6,38,63 from computer networking by Kurose and ross
 clientSocket = socket(AF_INET, SOCK_DGRAM)
 IP = input('Enter server name or IP address: ')
 port = input('Enter port: ')
